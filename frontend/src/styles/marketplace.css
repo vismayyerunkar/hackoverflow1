@@ -1,0 +1,67 @@
+.marketplace-main
+{
+    /* height: 90vh; */
+    width: 100vww;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+.marketplace-main .marketplace-upper
+{
+    height: 13vh;
+    width: 95%;
+    margin: auto auto;
+    /* border: 1px solid orange; */
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marketplace-upper h2
+{
+    color: #54B435;
+    font-weight: 600;
+}
+
+.marketplace-upper .search-bar
+{
+    width: 40%;
+    height: 40%;
+    border: 1px solid rgb(183, 181, 181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search-bar .search-input
+{
+    flex: .95;
+    border: none;
+    padding: 10px 15px;
+    box-shadow: none;
+}
+
+.search-input:focus
+{
+    outline: none;
+}
+
+.search-bar .search-icon
+{
+    color:#54B435;
+    font-size: 15px;
+}
+
+.marketplace-lower
+{
+    width: 100vw;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 10px;
+    padding: 25px 30px;
+
+}

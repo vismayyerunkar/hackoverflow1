@@ -1,0 +1,141 @@
+.signin-div
+{
+    height: 92vh;
+    /* border: 1px solid red; */
+    margin: auto auto;
+    margin-top: 2rem;
+    width: 80vw;
+    /* box-shadow: .5px .5px 5px gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signin-div .signin-left{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid orange; */
+    border-right: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.signin-left .signin-left-upper
+{
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content:center;
+    align-items:end;
+    color: #54B435;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.signin-left .signin-left-lower
+{
+    height: 85%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signin-left-lower input
+{
+    margin-bottom: 1rem;
+    width: 50%;
+    color:#54B435;
+    font-size: 1.1rem;
+    padding: .7em 1em ;
+    border: 1px solid rgb(168, 165, 165);
+    border-radius: 5px;
+}
+
+.signin-left-lower input:focus , 
+.signin-left-lower select :focus
+{
+    outline: none;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.signin-left-lower select
+{
+    margin-bottom: 1.2rem;
+    width: 55%;
+    color: rgb(116, 110, 110);
+    font-size: 1.1rem;
+    padding: .7em 1em ;
+    border: 1px solid rgb(168, 165, 165);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.signin-left-lower select:focus
+{
+    outline: none;
+    box-shadow: 1px 1px 5px rgb(192, 190, 190);
+}
+
+.signin-left-lower button
+{
+    width: 55%;
+    padding: .7em 1em ;
+    border-radius: 5px;
+    background-color: #54B435;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .2s ease-in;
+    margin-bottom: .2em;
+}
+
+.signin-left-lower button:hover
+{
+    background-color: transparent;
+    color: #54B435;
+    border: 1px solid #54B435;
+    box-shadow: 1px 1px 5px #54B435;
+}
+
+.signin-left-lower .lower-small
+{
+    margin-top: .5rem;
+    margin-bottom: .4em;
+    font-size: 1rem;
+    color: rgb(87, 87, 87);
+}
+
+.signin-left-lower .lower-small a
+{
+    color: #54B435;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: .3rem;
+}
+
+.signin-div .signin-right
+{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.signin-right img
+{
+    width:80%;
+    object-fit: contain;
+}

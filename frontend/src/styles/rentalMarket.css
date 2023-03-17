@@ -1,0 +1,153 @@
+
+.rental-market
+{
+    padding: 1em;
+    width: 90vw;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid orange; */
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 2rem;
+    place-items: center;
+
+}
+
+.rental-heading
+{
+    height: 12vh;
+    width: 80%;
+    padding: 5px;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 2vh;
+    margin: auto auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color: #54B435;
+    font-weight: 600;
+}
+
+
+.Add-More-btn
+{
+    color: #54B435;
+    background-color: white;
+    border: 1px solid #54B435;
+    border-radius: 20px;
+    padding: 2px 10px;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.Add-More-btn:hover
+{
+    color: white;
+    background-color: #54B435;
+    cursor: pointer;
+
+}
+
+
+/* Card */
+
+.card-main
+{
+    height: 50vh;
+    width: 20vw;
+    border: 1px solid rgb(224, 222, 222);
+    box-shadow: 1px 2px 5px whitesmoke;
+}
+
+.card-main:hover
+{
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.card-main-upper
+{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid yellow; */
+    border-bottom: 1px solid whitesmoke;
+    overflow: hidden;
+}
+
+.card-main-upper img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-main-lower
+{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: .2em;
+    margin: 0px;
+}
+
+.lower-left
+{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding: .1em;
+    line-height: .8em;
+}
+
+.lower-left h2{
+    font-size: 1.4rem;
+    color: gray;
+    font-weight: 500;
+    padding-bottom: .2em;
+}
+
+.lower-left p
+{
+    font-size: 1rem;
+    color: gray;
+    padding: .1em;
+
+}
+
+.lower-left small
+{
+    font-size: .9rem;
+    color: #54B435;
+}
+
+.lower-right
+{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-right a
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #54B435;
+    border: 1px solid #54B435;
+    padding: .2em 1em;
+    border-radius: 10px;
+}
+
+.lower-right a:hover
+{
+    background-color: #54B435;
+    color: white;
+}
